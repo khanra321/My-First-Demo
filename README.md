@@ -1,4 +1,4 @@
 # My-First-Demo
 This is my first Repo
 <br>
-Author - Akash Khanra(khanra321)
+Author - Akash Khanra
