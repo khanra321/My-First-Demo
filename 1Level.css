@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(186, 209, 241);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+     min-height: 100vh;
+}
+#box{
+    height:200px;
+    width:200px;
+
+    
+    background-color:blue;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+}
+p{
+    font-size:15px;
+    color: rgb(251, 253, 255);
+
+}
