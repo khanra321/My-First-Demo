@@ -1,22 +1,18 @@
 body{
     background-color:rgb(186, 209, 241);
 
-    /* display:flex;
-    justify-content:center; */
-    /* align-items:center;
-
-     min-height: 100vh; */
-}
-p{
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:center;  /*y axics*/
+    align-items: center;    /*x axics */
 
+    min-height: 100vh;
 }
+
 #box{
     height:200px;
     width:200px;
 
-    margin-left:600px;
     background-color:blue;
 
     display:flex;
@@ -25,9 +21,11 @@ p{
 
     border-radius:50%;
 }
-#in{
+#p-in-box{
     font-size:15px;
     color: rgb(251, 253, 255);
 
 }
-
+#heading{
+    color:red;
+}
