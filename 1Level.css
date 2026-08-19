@@ -1,17 +1,22 @@
 body{
     background-color:rgb(186, 209, 241);
 
+    /* display:flex;
+    justify-content:center; */
+    /* align-items:center;
+
+     min-height: 100vh; */
+}
+p{
     display:flex;
     justify-content:center;
-    align-items:center;
 
-     min-height: 100vh;
 }
 #box{
     height:200px;
     width:200px;
 
-    
+    margin-left:600px;
     background-color:blue;
 
     display:flex;
@@ -20,8 +25,9 @@ body{
 
     border-radius:50%;
 }
-p{
+#in{
     font-size:15px;
     color: rgb(251, 253, 255);
 
 }
+
