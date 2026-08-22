@@ -1,0 +1,17 @@
+body{
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+}
+p{
+    display: none;
+}
+
+.h1{
+    color:blue;
+    
+    
+}
