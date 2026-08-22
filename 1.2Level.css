@@ -12,6 +12,7 @@ p{
 
 .h1{
     color:blue;
+    text-transform: capitalize;
     
     
 }
