@@ -1,0 +1,19 @@
+#position{
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("fish.jpg");
+    background-size: cover;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
