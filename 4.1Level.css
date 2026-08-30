@@ -59,7 +59,7 @@ div{
 
 #container{
     height: 200px;
-    width: 400px;
+    width: 800px;
     justify-self: center;
     margin-bottom: 200px;
 
@@ -94,13 +94,19 @@ div{
 #box3{
     background-color: rgb(122, 15, 245);
     height: 50px;
+    display: flex;
+    flex-grow: 2
 
 }
 #box4{
     background-color: rgb(247, 13, 235);
 
+
 }
 #box5{
     background-color: rgb(250, 32, 32);
     height: 200px;
+    display: flex;
+
+    flex-grow: 2
 }
