@@ -29,7 +29,7 @@ a{
 
 
 #extra{
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
 
     display: flex;
@@ -133,4 +133,53 @@ h1{
     display: flex;
 
     flex-grow: 2 */
+}
+
+@media(min-width: 300px) and (max-width:700px){
+
+    
+    #box1 {
+            background-color: rgb(101, 1, 232);
+    
+    
+        }
+    
+    #box2 {
+        background-color: rgb(42, 250, 97);
+        /* height: 200px;
+    display:flex;
+    flex-shrink: 3; */
+
+    }
+
+    #box3 {
+        background-color: rgb(234, 25, 25);
+        /* height: 50px;
+    display: flex;
+    flex-grow: 2 */
+
+    }
+
+    #box4 {
+        background-color: rgb(185, 13, 247);
+
+
+    }
+
+    #box5 {
+        background-color: rgb(195, 205, 12);
+        /* height: 200px;
+    display: flex;
+
+    flex-grow: 2 */
+    }
+
+}
+
+@media(max-width: 700px){
+
+    #extra{
+    
+        height: 40vh;
+    }
 }
