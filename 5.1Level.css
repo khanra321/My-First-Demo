@@ -15,12 +15,17 @@ body{
     border-top: 7px solid rgb(244, 237, 237);
     border-radius: 50%;
 
-    transform: border 4s 
+    animation: rotate 1s ease-in 0s infinite;;
 }
 
-/* @keyframes rotat{
-     transf
-} */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 
 
